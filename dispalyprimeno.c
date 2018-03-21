@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int a,b,j;
+int a,b,c;
 scanf("%d %d",&a,&b);
-for(j=a;j<=b/2;j++)
+for(j=a;c<=b/2;c++)
 {
-if(b%j!=0)
-printf("%d",j);
+if(b%c!=0)
+printf("%d",c);
 }
 return 0;
 }
