@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int a,n,d,total;
+int a,n,d,tot;
 printf("enter the a,n,d");
 scanf("%d%d%d",&a,&n,&d);
-total=a+(n-1)*d;
-printf("%d",total);
+tot=a+(n-1)*d;
+printf("%d",tot);
 }
